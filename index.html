@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-lang="both" data-page="home">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>橘杏咲の立ち話もなんですから！</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+JP:wght@500;600&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet">
+<script>try{var l=localStorage.getItem('tachibanashi_lang');if(l==='zh'||l==='jp'||l==='both')document.documentElement.setAttribute('data-lang',l);}catch(e){}</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="home-topbar">
+    <div class="home-topbar-inner">
+      <a href="index.html" class="site-brand">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>橘杏咲の立ち話もなんですから！</span>
+      </a>
+      <div class="lang-switch" role="group" aria-label="语言显示模式">
+        <button type="button" class="lang-btn active" data-lang-set="both">中日</button>
+        <button type="button" class="lang-btn" data-lang-set="zh">仅中</button>
+        <button type="button" class="lang-btn" data-lang-set="jp">仅日</button>
+      </div>
+    </div>
+  </div>
+
+  <main class="home-main">
+    <header class="home-hero">
+      <div class="hero-kicker">声優グランプリ WEB 連載 · 第 1–28 回合集</div>
+      <h1>橘杏咲の立ち話もなんですから！</h1>
+      <p class="home-deck">收录 2024 年 8 月至 2026 年 11 月共 28 回专栏正文与“橘さんに質問！”问答</p>
+      <div class="home-lead">
+        <p class="jp">このコラムでは、橘杏咲さんが「立ち話では済まない！」と思う、今伝えたいことを綴っていただきます。</p>
+        <p class="zh">在本专栏中，橘杏咲小姐将把那些她觉得“光靠站着闲聊可说不完！”、此刻想要传达给大家的心声一一记录下来。</p>
+      </div>
+    </header>
+
+    <section class="home-controls" aria-label="搜索与筛选">
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input id="home-search" class="search-input" type="search" placeholder="搜索全部 28 回的中日正文、导读、当月目标或问答关键词…" autocomplete="off">
+        <button id="home-search-clear" class="search-clear" type="button" aria-label="清除搜索">×</button>
+      </div>
+      <div class="filter-row">
+        <div class="year-tabs" id="year-tabs" role="tablist" aria-label="按年份筛选">
+          <button type="button" class="year-tab active" data-year="all">全部 (28)</button>
+          <button type="button" class="year-tab" data-year="2024">2024年 (5)</button>
+          <button type="button" class="year-tab" data-year="2025">2025年 (12)</button>
+          <button type="button" class="year-tab" data-year="2026">2026年 (11)</button>
+        </div>
+        <button type="button" id="sort-toggle" class="sort-btn" aria-label="切换排序">
+          <span id="sort-label">正序 1 → 28</span>
+        </button>
+      </div>
+    </section>
+
+    <div class="home-status" id="home-status">共 28 回专栏 · 点击任意一回进入双栏阅读</div>
+    <ol class="home-toc-list" id="home-toc-list">
+      <li>
+        <a href="episodes/ep01.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第1回</span>
+            <span class="card-date">2024年8月1日</span>
+          </div>
+          <div class="card-summary">接棒开启连载、专栏由来与8月英语学习目标</div>
+          <div class="card-goal"><strong>8月目标：</strong>『夏休みに甘えず、勉強を継続する』（不因暑假而松懈，坚持学习）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep02.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第2回</span>
+            <span class="card-date">2024年9月1日</span>
+          </div>
+          <div class="card-summary">暑假出游、Switch 游戏沉迷与“胡思乱想可视化”</div>
+          <div class="card-goal"><strong>9月目标：</strong>『有言実行』（言出必行）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep03.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第3回</span>
+            <span class="card-date">2024年10月1日</span>
+          </div>
+          <div class="card-summary">20岁生日倒计时、9月工作回顾与四季剧团《美女与野兽》</div>
+          <div class="card-goal"><strong>10月目标：</strong>『健康第一』（健康第一）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep04.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第4回</span>
+            <span class="card-date">2024年11月1日</span>
+          </div>
+          <div class="card-summary">20岁生日庆生、两年半牙齿矫正毕业与初尝饮酒</div>
+          <div class="card-goal"><strong>11月目标：</strong>『マルチタスクをこなす！』（搞定多任务处理！）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep05.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第5回</span>
+            <span class="card-date">2024年12月1日</span>
+          </div>
+          <div class="card-summary">2024年分季回顾（旅行、声优活动、成人式振袖前拍）</div>
+          <div class="card-goal"><strong>12月目标：</strong>『健康大事に、日々コツコツと、悔いのないように！』（重视健康，日积月累，不留遗憾！）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep06.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第6回</span>
+            <span class="card-date">2025年1月1日</span>
+          </div>
+          <div class="card-summary">2025蛇年新年问候、新年抱负由来与“享受一切”的人生观</div>
+          <div class="card-goal"><strong>2025年抱负：</strong>『スキップで走り抜ける！！』（蹦跳着一路冲过去！！）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep07.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第7回</span>
+            <span class="card-date">2025年2月1日</span>
+          </div>
+          <div class="card-summary">沉迷《猫咪后院2》、成人式重逢与日本武道馆 LisAni! 首秀舞台</div>
+          <div class="card-goal"><strong>2月目标：</strong>『休みを有効活用する！』（有效利用假期！）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep08.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第8回</span>
+            <span class="card-date">2025年3月1日</span>
+          </div>
+          <div class="card-summary">《坏女孩》初主役解禁、北九州与唐津活动及春假闪电旅行</div>
+          <div class="card-goal"><strong>3月目标：</strong>『4月への備えを固めつつ、休みを楽しみ尽くす！』（扎实做好4月的准备，同时尽情享受假期！）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep09.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第9回</span>
+            <span class="card-date">2025年4月1日</span>
+          </div>
+          <div class="card-summary">香川双人游、连刷两次迪士尼与 AnimeJapan 2025 舞台回顾</div>
+          <div class="card-goal"><strong>4月目标：</strong>『無理、しない。』（不要勉强自己。）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep10.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第10回</span>
+            <span class="card-date">2025年5月1日</span>
+          </div>
+          <div class="card-summary">4月一人食面条合集、“天狼群”组合始动与《Princession Orchestra》开播</div>
+          <div class="card-goal"><strong>5月目标：</strong>『油断大敵、まだ無理しない！』（切忌大意，依然不要勉强！）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep11.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第11回</span>
+            <span class="card-date">2025年6月1日</span>
+          </div>
+          <div class="card-summary">热聊“可爱”哲学与毛绒玩偶、结川麻希暖心趣事及 Meteor 变身与发售活动</div>
+          <div class="card-goal"><strong>6月目标：</strong>『最強自己管理』（最强自我管理）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep12.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第12回</span>
+            <span class="card-date">2025年7月1日</span>
+          </div>
+          <div class="card-summary">X发帖拖延症、《神八小妹不可怕》等新作解禁、江之岛联动咖啡厅与《坏女孩》开播在即</div>
+          <div class="card-goal"><strong>7月目标：</strong>『規則正しい生活をしなさい』（给我过上规律的生活）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep13.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第13回</span>
+            <span class="card-date">2025年8月1日</span>
+          </div>
+          <div class="card-summary">《坏女孩》开播与杂志特辑、LisAni!夏日舞台及做客《あさきタイム》与期末苦战</div>
+          <div class="card-goal"><strong>8月目标：</strong>『やりたくても出来なかったことをやる』（去做想做却没能做成的事）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep14.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第14回</span>
+            <span class="card-date">2025年9月1日</span>
+          </div>
+          <div class="card-summary">期末战、《DREAM SESSION》单独活动、拓麻歌子与拔智齿</div>
+          <div class="card-goal"><strong>9月目标：</strong>『夏休み、楽しみながらも生活崩さず』（享受暑假的同时也不打乱作息）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep15.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第15回</span>
+            <span class="card-date">2025年10月1日</span>
+          </div>
+          <div class="card-summary">《坏女孩》完结、首次海外工作赴印度与21岁生日前夕</div>
+          <div class="card-goal"><strong>10月目标：</strong>『健康第一で、毎日をちゃんと楽しむ』（健康第一，认真享受每一天）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep16.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第16回</span>
+            <span class="card-date">2025年11月1日</span>
+          </div>
+          <div class="card-summary">TGS2025《终末地》登台、21岁庆生与1月新番情报</div>
+          <div class="card-goal"><strong>11月目标：</strong>『健康』（健康）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep17.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第17回</span>
+            <span class="card-date">2025年12月1日</span>
+          </div>
+          <div class="card-summary">12月圣诞期待、天狼群 ANIMAX MUSIX 初舞台与近期演技感悟</div>
+          <div class="card-goal"><strong>12月目标：</strong>『元気いっぱい走り抜ける！！！』（元气满满地一路冲到底！！！）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep18.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第18回</span>
+            <span class="card-date">2026年1月1日</span>
+          </div>
+          <div class="card-summary">2026马年新年问候、FUTURE SESSION 回顾与1月新番全情报</div>
+          <div class="card-goal"><strong>2026年抱负：</strong>『おさめる』（修成、收官与收获）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep19.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第19回</span>
+            <span class="card-date">2026年2月1日</span>
+          </div>
+          <div class="card-summary">冬日自我剖析、沉迷《明日方舟：终末地》与挚爱的可爱角色要素</div>
+          <div class="card-goal"><strong>2月目标：</strong>『大きなやる気と小さな余白のバランスを保つ』（保持满满干劲与小小留白之间的平衡）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep20.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第20回</span>
+            <span class="card-date">2026年3月1日</span>
+          </div>
+          <div class="card-summary">春日随想、泰国远征邂逅黄油小熊与2月密集活动回顾</div>
+          <div class="card-goal"><strong>3月目标：</strong>『好奇心のアクセル全開でかっ飛ばす！』（好奇心油门踩满，一路狂飙！）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep21.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第21回</span>
+            <span class="card-date">2026年4月1日</span>
+          </div>
+          <div class="card-summary">粉色情结往事、天狼群首场个唱、怪谈活动与 AnimeJapan 回顾</div>
+          <div class="card-goal"><strong>4月目标：</strong>『気合い入れ直しつつ丁寧に』（重振干劲，细致认真）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep22.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第22回</span>
+            <span class="card-date">2026年5月1日</span>
+          </div>
+          <div class="card-summary">大四社交模式、与妹妹收集可爱小物及日常“为什么”随想</div>
+          <div class="card-goal"><strong>5月目标：</strong>『油断せずに丁寧に』（切忌大意，细致认真）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep23.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第23回</span>
+            <span class="card-date">2026年6月1日</span>
+          </div>
+          <div class="card-summary">深色波波头纠结、可爱周边收集与思考人生目标</div>
+          <div class="card-goal"><strong>6月目标：</strong>『3食食べる』（一天吃三顿）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep24.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第24回</span>
+            <span class="card-date">2026年7月1日</span>
+          </div>
+          <div class="card-summary">缩毛矫正、水蓝色热潮、童年儿童书回忆与夏番告知</div>
+          <div class="card-goal"><strong>7月目标：</strong>『早起き』（早起）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep25.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第25回</span>
+            <span class="card-date">2026年8月1日</span>
+          </div>
+          <div class="card-summary">酷暑梦幻国度之旅、观剧感动、暑假与1st LIVE备战</div>
+          <div class="card-goal"><strong>8月目标：</strong>『しっかり楽しんでしっかりこなして』（尽情享受，踏实完成）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep26.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第26回</span>
+            <span class="card-date">2026年9月1日</span>
+          </div>
+          <div class="card-summary">ORCHERIA五人演唱会前夕吐露心声、四季剧团《回到未来》观剧与夏末日常</div>
+          <div class="card-goal"><strong>9月目标：</strong>『ちゃんと食べて寝る』（好好吃饭，好好睡觉）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep27.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第27回</span>
+            <span class="card-date">2026年10月1日</span>
+          </div>
+          <div class="card-summary">ORCHERIA首场演唱会感想、四季剧团《阿拉丁》与10月生日月</div>
+          <div class="card-goal"><strong>10月目标：</strong>『た〜っくさん甘やかす♡』（好好宠爱自己一番♡）</div>
+        </a>
+      </li>
+      <li>
+        <a href="episodes/ep28.html" class="home-card">
+          <div class="home-card-top">
+            <span class="card-ep">第28回</span>
+            <span class="card-date">2026年11月1日</span>
+          </div>
+          <div class="card-summary">生日月庆生与上野夜间动物园、毕业蓄发计划与汉字名“杏咲”</div>
+          <div class="card-goal"><strong>11月目标：</strong>『絶対に卒論を進める』（绝对要推进毕业论文）</div>
+        </a>
+      </li>
+    </ol>
+  </main>
+
+  <button type="button" class="fab-top" id="fab-top" aria-label="回到顶部" title="回到顶部">↑</button>
+
+  <script src="data/search-index.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
